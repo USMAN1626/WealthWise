@@ -1,0 +1,18 @@
+POST http://127.0.0.1:5000/predict
+Content-Type: application/json
+
+{
+  "income": 6000,
+  "expenses": 3000,
+  "savings": 1500,
+  "goal_cost": 10000,
+  "time_frame": 12,
+  "risk_level": "mid"
+}
+
+
+
+
+# curl -X POST http://127.0.0.1:5000/predict \
+#   -H "Content-Type: application/json" \
+#   -d "{\"income\":6000,\"expenses\":3000,\"savings\":1500,\"goal_cost\":10000,\"time_frame\":12,\"risk_level\":\"mid\"}"

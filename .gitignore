@@ -1,0 +1,11 @@
+# Node
+node_modules/
+.env
+
+# React
+client/build/
+
+# Python
+*.pyc
+__pycache__/
+flask_api/venv/
